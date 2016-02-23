@@ -1,19 +1,12 @@
-<!doctype html>
+﻿<!doctype html>
 <html>
-
 <head>
 <meta charset="utf-8">
-<title>Mine project</title>
-<link rel="stylesheet" type="text/css" href="main.css">
+<title>Документ без названия</title>
 </head>
 
 <body>
-
-<h1>Welcome</h1>
-
-
-<div>
-	<form method="post" action="vorm.php">
+<form method="post" action="vorm.php">
 	
 			<input type="hidden" name="registreerimise-aeg" value="2016-02-12">
 		
@@ -61,6 +54,9 @@
 			</table>
 	
 		</form>
-</div>
+<?php
+	header("content-type: text/plain; charset=utf-8");
+	var_dump($_POST);
+?>
 </body>
 </html>
