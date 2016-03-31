@@ -107,9 +107,9 @@ table {
  */
 body {
 	font: 13px/20px 'Lucida Grande', Tahoma, Verdana, sans-serif;
-	background-image:url("/images/background.jpg");
-	color: #404040;
-	background-attachment: fixed;
+background: url(images/background.jpg) no-repeat fixed;
+	background-position: center;
+	background-size: cover;
 }
 
 .container {
@@ -187,7 +187,7 @@ body {
 .login-help {
 	margin: 20px 0;
 	font-size: 11px;
-	color: #ff0d00;
+	color: #fafafa;
 	text-align: center;
 	text-shadow: 0 1px #2a85a1;
 }
