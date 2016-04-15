@@ -1,5 +1,5 @@
 .container {
-    margin: 80px auto;
+    margin: 80px;
     width: 640px;
 }
 
@@ -176,3 +176,223 @@ body {
     background-position: center;
     background-size: cover;
 }
+
+.backgroundsect {
+    background-color: #fafafa;
+
+    width: 800px;
+    margin: auto;
+    padding: 0 0 1080px;
+
+}
+
+.topLoginBar{width:100%;
+    height:30px;
+    line-height:30px;
+    font-size:12px;
+    color:#f7f7f7;
+    background-color:#2d6ca2;
+    -webkit-box-shadow:0px 1px 5px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow:0px 1px 5px 0px rgba(0,0,0,0.35);
+    box-shadow:0px 1px 5px 0px rgba(0,0,0,0.35);
+}
+.topLoginBar a{
+    color:#f7f7f7;
+}
+
+.topLoginBarLink{
+    color:white;
+}
+.loginBarLink {
+    display: inline;
+    margin-right: 15px;
+    position: relative;
+}
+
+.loginDialog{
+    display:none;
+    background:rgba(0,0,0,0.5);
+    width:100%;
+    height:100%;
+    z-index:10;
+    top:0;
+    left:0;
+    position:fixed;
+}
+
+.loginDialogBox{
+    padding:15px;
+    position:absolute;
+    font-size:14px;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index:100;
+    width:300px;
+    height:250px;
+    border:1px solid #7d7d7d;
+    margin:auto;
+    background-color:white;
+    opacity:1!important;
+}
+
+.signUpDialog {
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.signUpDialogBox {
+    padding: 15px;
+    position: absolute;
+    font-size: 14px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    width: 302px;
+    height: 380px;
+    border: 1px solid #7d7d7d;
+    margin: auto;
+    background-color: white;
+    opacity: 1 !important;
+}
+
+.closeButton {
+    float: right;
+    color: #ccc;
+    position: relative;
+    cursor: pointer;
+    top: -8px;
+}
+
+.closeButton :hover {
+    float: right;
+    color: #7d7d7d;
+    font-weight: bold;
+}
+
+.loginDialog {
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.loginDialogBox {
+    padding: 15px;
+    position: absolute;
+    font-size: 14px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    width: 300px;
+    height: 250px;
+    border: 1px solid #7d7d7d;
+    margin: auto;
+    background-color: white;
+    opacity: 1 !important;
+}
+
+.loginButton {
+    margin-top: 10px;
+    height: 35px;
+    width: inherit;
+    padding: 0;
+    font-size: 14px;
+    color: #fff;
+    background-color: #2d6ca2;
+    border: 0;
+    border-bottom: 2px solid #1D537C;
+    cursor: pointer;
+}
+
+.recoverPasswordButton {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #7d7d7d;
+}
+
+.rememberMe {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #7d7d7d;
+    float: left;
+}
+
+.loginInput {
+    margin-top: 10px;
+    height: 35px;
+    padding: 0;
+    font-size: 14px;
+    color: #7d7d7d;
+    padding-left: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.loginInput {
+    margin-top: 10px;
+    height: 35px;
+    padding: 0;
+    font-size: 14px;
+    color: #7d7d7d;
+    padding-left: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.loginButton:active {
+    background-color: #1D537C;
+}
+
+.loginButton:hover {
+    background-color: #3C80BA;
+}
+
+.closeButton {
+    float: right;
+    color: #ccc;
+    position: relative;
+    cursor: pointer;
+    top: -8px;
+}
+
+.closeButton :hover {
+    float: right;
+    color: #7d7d7d;
+    font-weight: bold;
+}
+
+.loginBarLink {
+    display: inline;
+    margin-right: 15px;
+    position: relative;
+}
+
+.forgotPassword {
+     margin-top: 10px;
+     font-size: 14px;
+     color: #7d7d7d;
+     float: right;
+ }
+
+.loginTypeDivider {
+    border: 0;
+    margin-top: 15px;
+    border-top: 1px solid #acacac;
+}
+
