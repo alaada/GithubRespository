@@ -1,30 +1,57 @@
 /**
  * Created by user on 22.04.2016.
  */
-document.querySelector('#topLoginBar').addEventListener('click',
+document.querySelector('#showme').addEventListener('click',
     /**
      * Funktsioon teeb vormi nähtavaks ning peidab "peida" nupu
      * @event
      */
     function () {
-        document.getElementById('loginButton').style.display = 'block';
-        document.getElementById('').style.display = 'none';
+        document.getElementById('showme').style.display = 'none';
+        document.getElementById('closeme').style.display = 'inline';
+        document.getElementById('centersect').style.display = 'block';
+
+
     });
 
 /*
  Seame nupule "Peida lisamise vorm" sündmuse "click" halduri, mis teeb "kuva-nupp"
  paragrahvi nähtavaks, aga peidab "lisa-vorm" form elemendi
  */
-document.querySelector('#peida-nupp button').addEventListener('click',
+document.querySelector('#closeme').addEventListener('click',
     /**
      * Funktsioon peidab vormi ning teeb nähtavaks "peida" nupu
      * @event
      */
     function () {
-        document.getElementById('loginButton').style.display = 'none';
-        document.getElementById('').style.display = 'block';
+        document.getElementById('closeme').style.display = 'none';
+        document.getElementById('showme').style.display = 'inline';
+        document.getElementById('centersect').style.display = 'none';
     });
 
+document.querySelector('#loginButton').addEventListener('click',
+    function () {
+      document.getElementById('logindialog').style.display = 'block';
+        document.getElementById('regdialog').style.display = 'none';
+
+    });
+
+document.querySelector('#signUpButton').addEventListener('click',
+    function () {
+        document.getElementById('logindialog').style.display = 'none';
+        document.getElementById('regdialog').style.display = 'block';
+    });
+
+document.querySelector('#closeButtonReg').addEventListener('click',
+function () {
+    document.getElementById('logindialog').style.display = 'none';
+    document.getElementById('regdialog').style.display = 'none';
+});
+document.querySelector('#closeButtonLog').addEventListener('click',
+    function () {
+        document.getElementById('logindialog').style.display = 'none';
+        document.getElementById('regdialog').style.display = 'none';
+    });
 /*
  Lisame vormielemendile "lisa-vorm" sündmuse "submit" halduri, mis ilmeb siis kui kasutaja
  kas klikib vormis asuval submit nupul või vajutab tekstikastis enter klahvi.
