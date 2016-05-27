@@ -84,7 +84,7 @@ function model_add($nimetus, $kogus)
  */
 function model_delete($id)
 {
-    global $l,;
+    global $l;
     $query = 'DELETE FROM alaada__numbrid WHERE Id=? LIMIT 1';
     $stmt = mysqli_prepare($l, $query);
     if (mysqli_error($l)) {

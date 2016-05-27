@@ -6,9 +6,10 @@ Kerrukamad osad oli css (präegu on võimalus kasutada construktori ja koostada 
 Oli raske töötada PHP ja MySql 'ga. Alguses oli probleemid PHP syntax'ga pärast sain aru kus on probleem ja kuidas lahendada seda. MySql on natuke raske, kui mõtlema globaalselt, näiteks kuidas teha mingi suur andmebaasi koos reegliga.
 Ka mulle tundub, et lehekülje back-end on raske mulle jaoks.
 Kui teada, et see oli minu esimene lehekülje loomine mina arvan, et 30-40 võib panna :)
-Git hub LINK ->
-ENOS LINK ->
 
+
+Git hub LINK -> https://github.com/alaada/GithubRespository/tree/master/Project
+ENOS LINK -> http://enos.itcollege.ee/~alaada/files/Project/
 
 
 Lugupidamisega, Aleksandr Laada 11Rühm.

@@ -51,7 +51,7 @@
                                 <button class="navbar-btn btn-danger" type="submit">Logi välja</button>
                             </form>
                         </li>
-                        <li class="text-center"> <?php foreach (message_list() as $message): ?>
+                        <li> <?php foreach (message_list() as $message): ?>
                                 <p style="border: 1px solid blue; background: #EEE;">
                                     <?= $message; ?>
                                 </p>
