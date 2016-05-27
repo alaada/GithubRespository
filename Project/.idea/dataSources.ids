@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - testtable@localhost" uuid="16d203ef-7c87-4acd-98a3-fcfb9d513857">
+    <database-info product="MySQL" version="5.7.12-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.5">
+      <schema id="1" name="testtable"/>
+      <table id="2" parent="1" name="{prefix}__kategooriad"/>
+      <table id="3" parent="1" name="{prefix}__kaubad"/>
+      <table id="4" parent="1" name="laada__kasutajad"/>
+      <column id="5" parent="2" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="6" parent="2" name="Nimetus">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <index id="7" parent="2" name="Nimetus">
+        <columns>Nimetus</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="8" parent="2" name="Nimetus">
+        <columns>Nimetus</columns>
+        <underlying-index>Nimetus</underlying-index>
+      </key>
+      <key id="9" parent="2" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="10" parent="3" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="11" parent="3" name="Nimetus">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="12" parent="3" name="Kogus">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="13" parent="3" name="Kategooria">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="14" parent="3" name="Muudetud">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="15" parent="3" name="Lisatud">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <index id="16" parent="3" name="Kategooria">
+        <columns>Kategooria
+Muudetud
+Lisatud</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="17" parent="3" name="Nimetus">
+        <columns>Nimetus</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="18" parent="3" name="Nimetus">
+        <columns>Nimetus</columns>
+        <underlying-index>Nimetus</underlying-index>
+      </key>
+      <key id="19" parent="3" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="20" parent="4" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="21" parent="4" name="Kasutajanimi">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="22" parent="4" name="Parool">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="23" parent="4" name="Lisatud">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <index id="24" parent="4" name="Kasutajanimi">
+        <columns>Kasutajanimi</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="25" parent="4" name="Lisatud">
+        <columns>Lisatud</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="26" parent="4" name="Kasutajanimi">
+        <columns>Kasutajanimi</columns>
+        <underlying-index>Kasutajanimi</underlying-index>
+      </key>
+      <key id="27" parent="4" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>
